@@ -100,6 +100,7 @@ get_header();
                         <!-- .entry-content -->
 
                     </div><!-- .hentry -->
+                    <?php /* ?>
                     <div class="categories-thumbs">
                         <?php $cat_p = get_cat_name ($cat[0]->category_parent); ?>
                         <h3>Otras categorías en <?php echo $cat_p ?></h3>
@@ -116,6 +117,7 @@ get_header();
                               <?php endforeach ?>
                         </ul>
                     </div>
+                    <?php */ ?>
                 <?php endwhile; ?>
 
             <?php endif; ?>

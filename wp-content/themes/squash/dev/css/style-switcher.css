@@ -1,0 +1,160 @@
+#styleswitcher {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    padding-right: 54px;
+    font: 11px/1.8 'Open Sans', Arial, Verdana, sans-serif;
+    }
+
+#styleswitcher-wrapper {
+    position: absolute;
+    z-index: 700;
+    left: 0; /* Value to hide and show the style switcher */
+    border-top: 1px solid #fff;
+    width: 95px;
+    background: #f7f7f7;
+    -moz-box-shadow: 0 0 6px 1px #b6b8b9;
+    -webkit-box-shadow: 0 0 6px 1px #b6b8b9;
+    box-shadow: 0 0 6px 1px #b6b8b9;
+    padding: 10px;
+    background: #fff;
+    }
+
+.styleswitcher-section {
+    margin-bottom: 15px;
+    }
+
+.styleswitcher-title, .styleswitcher-colorpicker-title, .styleswitcher-section-title {
+    display: block;
+    line-height: 20px;
+    border-bottom: 1px dotted #C5C5C5;
+    color: #676767;
+    margin: 10px 0;
+    }
+
+.styleswitcher-section-title {
+    font-weight: bold;
+    font-size: 12px;
+    }
+
+.styleswitcher-colorpicker-title {
+    }
+
+#styleswitcher-button {
+    display: block;
+    position: absolute;
+    left: 114px; /* Value to change when hiding the style switcher */
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    z-index: 700;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    background: #fff;
+    -webkit-box-shadow: 2px 0px 4px rgba(46, 50, 50, 0.45);
+    -moz-box-shadow: 2px 0px 4px rgba(46, 50, 50, 0.45);
+    box-shadow: 2px 0px 4px rgba(46, 50, 50, 0.45);
+    }
+
+#styleswitcher-button i {
+    display: block;
+    padding: 12px;
+    font-size: 28px;
+    color: #00a57d;
+}
+
+.styleswitcher-list {
+    overflow: hidden;
+    }
+
+.styleswitcher-list, .styleswitcher-list li {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.styleswitcher-list li {
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    width: 25px;
+    height: 22px;
+    }
+
+#styleswitcher select {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    }
+
+body.pattern-none { background-image: none; }
+
+body.pattern-1, body.pattern-2, body.pattern-3, body.pattern-4, body.pattern-5, body.pattern-6, body.pattern-7, body.pattern-8, body.pattern-9, body.pattern-10 {
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    }
+
+body.pattern-opaque-1, body.pattern-opaque-2, body.pattern-opaque-3, body.pattern-opaque-4, body.pattern-opaque-5, body.pattern-opaque-6, body.pattern-opaque-7, body.pattern-opaque-8, body.pattern-opaque-9, body.pattern-opaque-10 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: cover;
+    }
+
+body.pattern-1 { background-image: url("../images/styleswitcher/patterns/pattern-1.gif"); }
+
+body.pattern-2 { background-image: url("../images/styleswitcher/patterns/pattern-2.gif"); }
+
+body.pattern-3 { background-image: url("../images/styleswitcher/patterns/pattern-3.gif"); }
+
+body.pattern-4 { background-image: url("../images/styleswitcher/patterns/pattern-4.png"); }
+
+body.pattern-5 { background-image: url("../images/styleswitcher/patterns/pattern-5.png"); }
+
+body.pattern-6 { background-image: url("../images/styleswitcher/patterns/pattern-6.png"); }
+
+body.pattern-7 { background-image: url("../images/styleswitcher/patterns/pattern-7.png"); }
+
+body.pattern-8 { background-image: url("../images/styleswitcher/patterns/pattern-8.png"); }
+
+body.pattern-opaque-1 { background-image: url("../images/styleswitcher/bg-images/background1.jpg"); }
+
+body.pattern-opaque-2 { background-image: url("../images/styleswitcher/bg-images/background2.jpg"); }
+
+body.pattern-opaque-3 { background-image: url("../images/styleswitcher/bg-images/background3.jpg"); }
+
+body.pattern-opaque-4 { background-image: url("../images/styleswitcher/bg-images/background4.jpg"); }
+
+body.pattern-opaque-5 { background-image: url("../images/styleswitcher/bg-images/background5.jpg"); }
+
+body.pattern-opaque-6 { background-image: url("../images/styleswitcher/bg-images/background6.jpg"); }
+
+body.pattern-opaque-7 { background-image: url("../images/styleswitcher/bg-images/background7.jpg"); }
+
+body.pattern-opaque-8 { background-image: url("../images/styleswitcher/bg-images/background8.jpg"); }
+
+body.pattern-opaque-9 { background-image: url("../images/styleswitcher/bg-images/background9.jpg"); }
+
+body.pattern-opaque-10 { background-image: url("../images/styleswitcher/bg-images/background10.jpg"); }
+
+#styleswitcher input#boxed-layout {
+    float: left;
+    }
+
+#styleswitcher .checkbox-holder label {
+    padding-left: 4px;
+    }
+
+.colorpicker-wrapper {
+    position: relative;
+    height: 36px;
+    display: block;
+    vertical-align: middle;
+    }
+
+#styleswitcher-theme-skin { display: none;}

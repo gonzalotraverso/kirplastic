@@ -1,0 +1,1 @@
+ <?php get_search_form(); // Loads the searchform.php template. ?>

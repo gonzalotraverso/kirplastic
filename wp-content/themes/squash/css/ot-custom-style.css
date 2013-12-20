@@ -1,0 +1,142 @@
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a {
+    padding: 12px 5px 12px 36px;
+    font-weight: bold;
+    color: #56595c;
+    font-size: 11px;
+    }
+
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a:hover,
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a:visited,
+#page-ot_theme_options.wrap.settings-wrap .ui-tabs-nav li a:focus {
+    outline: none;
+    }
+
+#page-ot_theme_options #option-tree-sub-header {
+    padding: 15px 5px;
+    background: #E0E0E0 url(skins/default/admin-logo.png) no-repeat 10px center;
+    }
+
+#tab_general_default a {
+    background: url(../framework/option-tree/customize/images/gear.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_logo_options a {
+    background: url(../framework/option-tree/customize/images/logo.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_fonts_tab a {
+    background: url(../framework/option-tree/customize/images/font.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_color_tab a {
+    background: url(../framework/option-tree/customize/images/color.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_backgrounds_tab a {
+    background: url(../framework/option-tree/customize/images/background.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_sidebar_tab a {
+    background: url(../framework/option-tree/customize/images/sidebar.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_primary_menu_tab a {
+    background: url(../framework/option-tree/customize/images/menu.png) no-repeat 10px center transparent;
+    }
+
+#tab_video_options a {
+    background: url(../framework/option-tree/customize/images/video.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_nivo_slider a {
+    background: url(../framework/option-tree/customize/images/slides.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_flex_slider a {
+    background: url(../framework/option-tree/customize/images/slides-stack.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_portfolio_page a {
+    background: url(../framework/option-tree/customize/images/portfolio.png) no-repeat 10px center transparent;
+    }
+
+#tab_layout_management a {
+    background: url(../framework/option-tree/customize/images/layout.png) no-repeat 10px center rgba(0, 0, 0, 0);
+    }
+
+#tab_mo_header a {
+    background: url(../framework/option-tree/customize/images/header.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_footer a {
+    background: url(../framework/option-tree/customize/images/footer.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_custom_css_tab a {
+    background: url(../framework/option-tree/customize/images/custom-css.png) no-repeat 10px center transparent;
+    }
+
+#tab_mo_miscellaneous_options a {
+    background: url(../framework/option-tree/customize/images/gear-plus.png) no-repeat 10px center transparent;
+    }
+.wrap.settings-wrap .ui-tabs-nav li {
+    border: none;
+    border-bottom: 1px solid #c3c3c3;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    background: -webkit-linear-gradient(top, #f8f8f8 0%, #f0f0f0 100%);
+    background: -moz-linear-gradient(top, #f8f8f8 0%, #f0f0f0 100%);
+    background: -o-linear-gradient(top, #f8f8f8 0%, #f0f0f0 100%);
+    background: -ms-linear-gradient(top, #f8f8f8 0%, #f0f0f0 100%);
+    background: linear-gradient(top, #f8f8f8 0%, #f0f0f0 100%); /* W3C */
+    }
+
+.wrap.settings-wrap .ui-tabs-nav li:focus {
+    outline: none;
+    }
+
+.wrap.settings-wrap .ui-tabs-nav li:first-child {
+    border-top: 1px solid #c5c5c5;
+    }
+
+.wrap.settings-wrap .ui-tabs-nav li.ui-state-active, .wrap.settings-wrap .ui-tabs-nav li:hover {
+    border-color: #c8c8c8;
+    background: #D0D0D0;
+    background: -moz-linear-gradient(top, #d0d0d0 0%, #ccc 100%);
+    background: -webkit-linear-gradient(top, #d0d0d0 0%, #ccc 100%);
+    background: -o-linear-gradient(top, #d0d0d0 0%, #ccc 100%);
+    background: -ms-linear-gradient(top, #d0d0d0 0%, #ccc 100%);
+    background: linear-gradient(to bottom, #D0D0D0 0%, #CCC 100%);
+    }
+
+.ui-tabs-nav li.ui-state-active a {
+    color: #fff;
+    }
+
+.wrap.settings-wrap .ui-tabs-nav li a:hover {
+    color: #3BA3D3;
+    -webkit-transition: all 0.3s;
+    }
+
+button.option-tree-ui-button {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    }
+
+#option-tree-options-layouts-form {
+    right: 160px;
+    left: inherit;
+    top: 50px;
+    }
+
+#mo_sidebar_options .format-setting .description {
+    float: none;
+    padding: 5px 0;
+    width: 100%;
+    }

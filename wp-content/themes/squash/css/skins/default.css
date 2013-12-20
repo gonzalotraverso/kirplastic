@@ -1,0 +1,44 @@
+ul.post-list a:hover { color: #10a8b5; }
+.post-snippets .hentry .entry-title a:hover { color: #10a8b5; }
+a, a:active, a:visited { color: #10A8B5; }
+a:hover { color: #888; }
+#content .hentry h2.entry-title a:hover { color: #10a8b5; }
+.byline span i { color: #10a8b5; }
+.entry-meta span i { color: #10a8b5; }
+.entry-meta span:hover a { color: #10a8b5; }
+.loop-nav a:hover { color: #10a8b5; }
+.pagination span.current { background: #10a8b5; }
+.sidebar a:hover { color: #10A8b5; }
+#before-content-wrap.title-area { background: -o-linear-gradient(bottom, #50afdf 1%, #10a8b5 51%);
+    background: -moz-linear-gradient(top, #20BDCA 0%, #10A8B5 100%);background: -webkit-linear-gradient(top, #20BDCA 0%, #10A8B5 100%);background: -o-linear-gradient(top, #20BDCA 0%, #10A8B5 100%);background: -ms-linear-gradient(top, #20BDCA 0%, #10A8B5 100%);background: linear-gradient(to bottom, #20BDCA 0%, #10A8B5 100%);
+    background-color: #10a8b5; border-bottom: 1px solid #3faed1; box-shadow: 1px 1px #10a8b5; }
+#before-content-area a, #before-content-area a:active, #before-content-area a:visited { color: #10a8b5; }
+#portfolio-filter a:hover { color: #10a8b5; }
+.dropcap2, .dropcap3, .dropcap4, .dropcap5 { background-color: #10a8b5; }
+.header-fancy span { background-color: #10a8b5; }
+h3.fancy-header { background-color: #10a8b5; }
+.top-of-page a:hover { color: #10a8b5; }
+.tabs .current, .tabs .current:hover, .tabs li.current a { border-top: 2px solid #10a8b5; }
+.read-more a { color: #10a8b5; }
+ul#recentcomments li.recentcomments:before { }
+.tagcloud a:hover, #bottom-area .tagcloud a:hover { background-color: #10a8b5; }
+div.service-box2:hover h2 a { color: #10a8b5; }
+div.service-box1:hover { background-color: #10a8b5; }
+.service-box3:hover { border-color: #10a8b5; }
+#services-rounded .service-box4:hover h2 { color: #10a8b5; }
+.heading1 h2, .user-invitation h2, #clients-introduction .title { color: #10a8b5; }
+#slider-showcase-skills blockquote { border-left: 5px solid #10a8b5; }
+#column-shortcode-section p { background: #10a8b5; }
+.team-member:hover h3 a { color: #10A8B5; }
+.pricing-table .pricing-plan h4 { color: #10a8b5; }
+.heading2 .title { }
+.fancy-tab .current-tab { background-color: #10a8b5; border-color: #10a8b5; }
+.fancy-tab li.current-tab:hover { background-color: #10a8b5; }
+#content .contact-form input:focus, #content .contact-form textarea:focus,
+#bottom-area .contact-form input:focus, #bottom-area .contact-form textarea:focus {
+    border: 1px solid rgba(16, 168, 181, 0.6); box-shadow: 0 0 2px rgba(16, 168, 181, 0.6); }
+.image-info { background: rgba(38, 33, 97, 0.8); }
+span.action-link a:hover { color: #10a8b5; }
+a.more-link:hover { color: #10a8b5; }
+.service-box4 [class^="icon-"] { color: #10a8b5; }
+#jobs-segment .apply-action a { border-bottom: 1px dotted rgba(16, 168, 181, 0.7); }
